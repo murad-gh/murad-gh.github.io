@@ -29,7 +29,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1rem;
-        font-size: 10px;
+        font-size: 10fr;
     }
     .mobile-div-menu{
         background: blue;
