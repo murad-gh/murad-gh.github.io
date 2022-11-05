@@ -37,6 +37,7 @@
     .mobile-div-menu{
         display: grid;
         padding: 10px;
+        margin-top: 10px;
         width: auto;
     }
     .mobile-menu-line1{
@@ -56,11 +57,11 @@
         background: rgb(255, 255, 255);
     }
     .mobile-menu-line1.active{
-        top: 5px;
+        top: 2px;
         transform: rotateZ(45deg);
     }
     .mobile-menu-line2.active{
-        top: -5px;
+        top: -3px;
         transform: rotateZ(-45deg);
     }
     .mobile-div-gh{
