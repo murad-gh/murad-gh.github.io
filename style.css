@@ -57,11 +57,11 @@
         background: rgb(255, 255, 255);
     }
     .mobile-menu-line1.active{
-        top: 2px;
+        top: 5px;
         transform: rotateZ(45deg);
     }
     .mobile-menu-line2.active{
-        top: -3px;
+        top: -5px;
         transform: rotateZ(-45deg);
     }
     .mobile-div-gh{
