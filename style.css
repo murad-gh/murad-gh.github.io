@@ -12,9 +12,9 @@
 
 
 
-/* This Desktop CSS */ 
+/* This Desktop CSS */
 .desktop-header{
-    background: red;
+    background: black
 }
 
 
@@ -27,18 +27,52 @@
 
     .mobile-header{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 15px;
+        padding: 10px;
+        grid-template-columns: 1fr 2fr 1fr;
         grid-gap: 1rem;
-        font-size: 10fr;
+        background: black;
     }
     .mobile-div-menu{
-        background: blue;
+        display: grid;
+        padding: 10px;
+        width: auto;
+    }
+    .mobile-menu-line1{
+        position: relative;
+        margin-left: 10px;
+        height: 2px;
+        width: 25%;
+        top: 4px;
+        background: rgb(255, 255, 255);
+    }
+    .mobile-menu-line2{
+        position: relative;
+        margin-left: 10px;
+        height: 2px;
+        width: 25%;
+        top: 4px;
+        background: rgb(255, 255, 255);
+    }
+    .mobile-menu-line1.active{
+        top: 5px;
+        transform: rotateZ(45deg);
+    }
+    .mobile-menu-line2.active{
+        top: -5px;
+        transform: rotateZ(-45deg);
     }
     .mobile-div-gh{
         text-align: center;
-        background: green;
+        padding: 10px;
+        color: white;
     }
     .mobile-div-lang{
-        background: yellow;
+        text-align: center;
+    }
+    img{
+        margin-top: 5px;
+        filter: invert(100%);
+        width: 25px;
     }
 }
