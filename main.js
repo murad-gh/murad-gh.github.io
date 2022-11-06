@@ -1,22 +1,13 @@
-const menu_icon_container = document.querySelector(".menu-icon-container"); /* This the button  (.menu-icon-container)*/
-const mobile_nav = document.querySelector(".mobile-nav"); /* This the target class (.mobile-nav) */
+const mobile_div_menu = document.querySelector(".mobile-div-menu"); /* This the button  (.mobile_div_menu)*/
+const mobile_menu_line1 = document.querySelector(".mobile-menu-line1"); /* This the target class (.mobile_menu_line1) */
 
-menu_icon_container.addEventListener("click", () => {
-    mobile_nav.classList.toggle("active");
+mobile_div_menu.addEventListener("click", () => {
+    mobile_menu_line1.classList.toggle("active");
 })
 
+const mobile_menu_line2 = document.querySelector(".mobile-menu-line2"); /* This the target class (.mobile_menu_line2) */
 
-const header_li = document.querySelector(".header-li"); /* This the target class (.header-li) */
-
-
-menu_icon_container.addEventListener("click", () => {
-    header_li.classList.toggle("active");
-})
-
-
-const header_div2 = document.querySelector(".header-div2"); /* This the target class (.header-div2) */
-
-menu_icon_container.addEventListener("click", () => {
-    header_div2.classList.toggle("active");
+mobile_div_menu.addEventListener("click", () => {
+    mobile_menu_line2.classList.toggle("active");
 })
 
