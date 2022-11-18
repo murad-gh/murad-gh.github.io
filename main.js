@@ -11,3 +11,36 @@ mobile_div_menu.addEventListener("click", () => {
     mobile_menu_line2.classList.toggle("active");
 })
 
+const mobile_div_lang_logo = document.querySelector(".mobile-div-lang-logo");
+const mobile_div_gh = document.querySelector(".mobile-div-gh");
+const mobile_img = document.querySelector(".menu-img");
+const mobile_div_langs = document.querySelector(".mobile-div-langs");
+const mobile_div_lang = document.querySelector(".mobile-div-lang");
+
+mobile_div_lang_logo.addEventListener("click", () => {
+    mobile_img.classList.toggle("active");
+})
+
+mobile_div_lang_logo.addEventListener("click", () => {
+    mobile_div_gh.classList.toggle("active");
+})
+
+mobile_div_lang_logo.addEventListener("click", () => {
+    mobile_div_menu.classList.toggle("active");
+})
+
+mobile_div_lang_logo.addEventListener("click", () => {
+    mobile_div_lang.classList.toggle("active");
+})
+
+mobile_div_lang_logo.addEventListener("click", () => {
+    mobile_div_langs.classList.toggle("active");
+})
+
+// language links
+
+const langs_a1 = document.querySelector(".langs-a1");
+
+langs_a1.addEventListener("click", () => {
+    mobile_img.classList.toggle("active");
+})
