@@ -37,10 +37,13 @@ mobile_div_lang_logo.addEventListener("click", () => {
     mobile_div_langs.classList.toggle("active");
 })
 
-// language links
 
-const langs_a1 = document.querySelector(".langs-a1");
 
-langs_a1.addEventListener("click", () => {
-    mobile_img.classList.toggle("active");
+// header after active language
+
+
+const mobile_header = document.querySelector(".mobile-header");
+
+mobile_img.addEventListener("click", () => {
+    mobile_header.classList.toggle("active");
 })

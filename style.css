@@ -12,7 +12,7 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .desktop-header{
         display: none;
     }
@@ -20,16 +20,20 @@
     /* Mobile */
 
     .mobile-header{
-        display: flex;
+        display: grid;
+        gap :25px;
+        grid-template-columns: 1fr 2fr 0fr;
         font-size: 15px;
         background: black; 
     }
     .mobile-div-menu{
         display: grid;
         padding: 10px;
-        width: 25%;
         cursor: pointer;  
         opacity: 0.7;
+    }
+    .mobile-div-menu:hover{
+        opacity: 1;
     }
     .mobile-menu-line1{
         position: relative;
@@ -41,9 +45,6 @@
         transition-property: transform, top;
         transition-delay: 0ms, 160ms;
         transition-duration: 200ms;
-    }
-    .mobile-div-menu:hover{
-        opacity: 1;
     }
     .mobile-menu-line2{
         position: relative;
@@ -73,7 +74,7 @@
     .mobile-div-gh{
         text-align: center;
         padding: 10px;
-        width: 50%;
+        width: 100vh;
         color: white;
         opacity: 0.7;
     }
@@ -105,10 +106,7 @@
     }
     .mobile-div-lang.active{
         display: flex;
-        text-align: left;
-        align-content: left;
         width: 100%;
-        background-color: red;
     }
     .mobile-div-langs{
         display: none;
@@ -118,10 +116,10 @@
         width: 100%;
         text-align: center;
         align-content: center;
+        padding: 10px;
         font-size: 15px;
     }
     a{  
-        font-size: 15px;
         opacity: 0.7;
         color: white;
     }
@@ -142,6 +140,11 @@
     }
     .langs-a3:hover{
         opacity: 3;
+    }
+    .mobile-header.active{
+        display: grid;
+        grid-template-columns: 0% 0% auto;
+        grid-gap: 0;
     }
 }
 
