@@ -1,15 +1,36 @@
-const mobile_div_menu = document.querySelector(".mobile-div-menu"); /* This the button  (.mobile_div_menu)*/
+
+// Menu activation
+
+const mobile_div = document.querySelector(".mobile-div"); /* This the button  (.mobile_div_menu)*/
 const mobile_menu_line1 = document.querySelector(".mobile-menu-line1"); /* This the target class (.mobile_menu_line1) */
 
-mobile_div_menu.addEventListener("click", () => {
+
+mobile_div.addEventListener("click", () => {
     mobile_menu_line1.classList.toggle("active");
 })
 
 const mobile_menu_line2 = document.querySelector(".mobile-menu-line2"); /* This the target class (.mobile_menu_line2) */
 
-mobile_div_menu.addEventListener("click", () => {
+mobile_div.addEventListener("click", () => {
     mobile_menu_line2.classList.toggle("active");
 })
+
+
+const mobile_div_menu = document.querySelector(".mobile-div-menu");
+
+mobile_div.addEventListener("click", () => {
+    mobile_div_menu.classList.toggle("active");
+})
+
+mobile_div.addEventListener("click", () => {
+    mobile_div_gh.classList.toggle("active");
+})
+
+mobile_div.addEventListener("click", () => {
+    mobile_div_lang_logo.classList.toggle("active");
+})
+
+// Logo activation
 
 const mobile_div_lang_logo = document.querySelector(".mobile-div-lang-logo");
 const mobile_div_gh = document.querySelector(".mobile-div-gh");
@@ -26,7 +47,7 @@ mobile_div_lang_logo.addEventListener("click", () => {
 })
 
 mobile_div_lang_logo.addEventListener("click", () => {
-    mobile_div_menu.classList.toggle("active");
+    mobile_div.classList.toggle("active");
 })
 
 mobile_div_lang_logo.addEventListener("click", () => {
