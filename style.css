@@ -180,24 +180,57 @@ body{
     .mobile-div-lang-logo.active{
         opacity: 0;
     }
+    @keyframes move-a1 {
+        from {
+          transform: translateX(100px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      @keyframes move-a2 {
+        from {
+          transform: translateX(100px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      @keyframes move-a3 {
+        from {
+          transform: translateX(100px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
     a{  
         opacity: 0.7;
         color: white;
     }
     .langs-a1{
         width: 33%;
+        animation: move-a1 3s;
     }
     .langs-a1:hover{
         opacity: 1;
     }
     .langs-a2{
         width: 33%;
+        animation: move-a2 3s;
     }
     .langs-a2:hover{
         opacity: 1;
     }
     .langs-a3{
         width: 33%;
+        animation: move-a3 3s;
     }
     .langs-a3:hover{
         opacity: 3;
