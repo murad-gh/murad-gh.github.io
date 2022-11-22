@@ -216,21 +216,21 @@ body{
     }
     .langs-a1{
         width: 33%;
-        animation: move-a1 3s;
+        animation: move-a1 4s;
     }
     .langs-a1:hover{
         opacity: 1;
     }
     .langs-a2{
         width: 33%;
-        animation: move-a2 3s;
+        animation: move-a2 4s;
     }
     .langs-a2:hover{
         opacity: 1;
     }
     .langs-a3{
         width: 33%;
-        animation: move-a3 3s;
+        animation: move-a3 4s;
     }
     .langs-a3:hover{
         opacity: 3;
