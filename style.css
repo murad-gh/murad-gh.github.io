@@ -8,8 +8,65 @@
 }
 
 body{
-
     overflow: hidden;
+}
+.mobile-div-menu{
+  display: none;
+}
+
+/* This Desktop CSS */
+
+.desktop-header{
+display: flex;
+white-space: nowrap;
+align-items: center;
+font-size: 12px;
+padding: 10px;
+width: 100%;
+height: 40px;
+background: black;
+color: white;
+}
+.desktop-header-div-gh{
+  display: flex;
+  font-size: 10px;
+  width: 15%;
+}
+.desktop-header-div-menu{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+} 
+.desktop-header-div-menu-nav-a{
+  margin: 10px;
+  color: white;
+}
+.desktop-header-div-lang{
+  display: flex;
+  width: 25%;
+  justify-content: right;
+  font-size: 10px;
+}
+.desktop-header-div-nav-a{
+  margin: 10px;
+  color: white;
+}
+
+/* Here the content section */
+
+.content-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+}
+.about-me{
+  padding: 10px;
+}
+.skills{
+  padding: 10px;
 }
 
 /* This Mobile CSS */
@@ -18,13 +75,11 @@ body{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 690px) {
     .desktop-header{
         display: none;
     }
-    .desktop-dev{
-      display: none;
-    }
+   
     /* Mobile */
 
     .mobile-header{
@@ -83,7 +138,7 @@ body{
         display: none;
     }
 
-    @keyframes move-div-menu {
+      @keyframes move-div-menu {
         from {
           transform: translateY(-1vh);
           opacity: 0;
@@ -111,7 +166,7 @@ body{
 
     /* Menu animation */
 
-    @keyframes move-div-menu-nav-a1 {
+      @keyframes move-div-menu-nav-a1 {
         from {
           transform: translateY(-30px);
           opacity: 0;
@@ -250,6 +305,7 @@ body{
         display: flex;
         padding: 10px;
         width: 100%;
+        margin-left: 50px;
         text-align: center;
         align-content: center;
         font-size: 15px;
@@ -267,7 +323,7 @@ body{
           opacity: 1;
         }
       }
-      @keyframes move-a2 {
+    @keyframes move-a2 {
         from {
           transform: translateX(150px);
           opacity: 0;
@@ -277,7 +333,7 @@ body{
           opacity: 1;
         }
       }
-      @keyframes move-a3 {
+    @keyframes move-a3 {
         from {
           transform: translateX(200px);
           opacity: 0;
@@ -321,17 +377,5 @@ body{
 
 
 
-/* This Desktop CSS */
 
-.mobile-div-menu{
-    display: none;
-}
 
-.desktop-header{
-  display: flex;
-  font-size: 12px;
-  padding: 10px;
-  height: 40px;
-  background: black;
-  color: white;
-}
