@@ -55,15 +55,28 @@ body{
 }
 /* Table Skills */
 table.center{
+  width: 70%;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
+table{
+  empty-cells: show;
+  width: 100%;
+  font-size: 10px;
+}
+th{
+  padding: 2px 20px;
+  width: 20%;
+}
 tr{
-  background: blue;
+  text-align: left;
 }
 td{
-  width: 20%;
-  background: red;
+  text-align: center;
+}
+.table-background-color{
+  background: rgb(240, 240, 240);
 }
 /* Here the content section */
 
