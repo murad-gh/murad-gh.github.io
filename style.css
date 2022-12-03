@@ -53,8 +53,28 @@ body{
   margin: 10px;
   color: white;
 }
-/* Table Skills */
 
+
+/* Here the content section */
+
+.content-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+}
+.about-me{
+  padding: 10px;
+  padding-top: 40px;
+}
+
+/* Table Skills */
+.skills{
+  padding: 10px;
+  padding-top: 40px;
+}
 table.center{
   margin-top: 20px;
   margin-left: auto;
@@ -82,28 +102,21 @@ td{
   background: rgb(240, 240, 240);
 }
 
-/* Here the content section */
+/* Table Work Expereince */
 
-.content-section{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-  padding: 10px;
-}
-.about-me{
-  padding: 10px;
-  padding-top: 40px;
-}
-.skills{
-  padding: 10px;
-  padding-top: 40px;
-}
 .work-expereince{
   padding: 10px;
   padding-top: 40px;
 }
+.td-work{
+  text-align: left;
+  padding-left: 10px;
+  width: 310px;
+}
+.link-color{
+  color: black;
+}
+
 .contact{
   padding: 10px;
   padding-top: 40px;
@@ -127,59 +140,59 @@ td{
     /* Mobile */
 
     .mobile-header{
-        display: grid;
-        grid-template-columns: 1fr 2fr 0fr;
-        font-size: 15px;
-        height: 40px;
-        background: black; 
+      display: grid;
+      grid-template-columns: 1fr 2fr 0fr;
+      font-size: 15px;
+      height: 40px;
+      background: black; 
     }
     .mobile-div{
-        display: grid;
-        padding: 10px;
-        cursor: pointer;  
-        opacity: 0.7;
+      display: grid;
+      padding: 10px;
+      cursor: pointer;  
+      opacity: 0.7;
     }
     .mobile-div:hover{
         opacity: 1;
     }
     .mobile-menu-line1{
-        position: relative;
-        margin: 5px 10px;
-        height: 1px;
-        width: 17px;
-        background: rgb(255, 255, 255);
-        top: 0px;
-        transition-property: transform, top;
-        transition-delay: 0ms, 160ms;
-        transition-duration: 200ms;
+      position: relative;
+      margin: 5px 10px;
+      height: 1px;
+      width: 17px;
+      background: rgb(255, 255, 255);
+      top: 0px;
+      transition-property: transform, top;
+      transition-delay: 0ms, 160ms;
+      transition-duration: 200ms;
     }
     .mobile-menu-line2{
-        position: relative;
-        margin: 5px 10px;
-        height: 1px;
-        width: 17px;
-        background: rgb(255, 255, 255);
-        top: 0px;
-        transition-property: transform, top;
-        transition-delay: 0ms, 160ms;
-        transition-duration: 200ms;
+      position: relative;
+      margin: 5px 10px;
+      height: 1px;
+      width: 17px;
+      background: rgb(255, 255, 255);
+      top: 0px;
+      transition-property: transform, top;
+      transition-delay: 0ms, 160ms;
+      transition-duration: 200ms;
     }
     .mobile-menu-line1.active{
-        top: 7px;
-        transform: rotateZ(45deg);
-        transition-property: top, transform;
-        transition-delay: 0ms, 160ms;
-        transition-duration: 200ms;
+      top: 7px;
+      transform: rotateZ(45deg);
+      transition-property: top, transform;
+      transition-delay: 0ms, 160ms;
+      transition-duration: 200ms;
     }
     .mobile-menu-line2.active{
-        top: -5px;
-        transform: rotateZ(-45deg);
-        transition-property: top, transform;
-        transition-delay: 0ms, 160ms;
-        transition-duration: 200ms;
+      top: -5px;
+      transform: rotateZ(-45deg);
+      transition-property: top, transform;
+      transition-delay: 0ms, 160ms;
+      transition-duration: 200ms;
     }
     .mobile-div-menu{
-        display: none;
+      display: none;
     }
 
       @keyframes move-div-menu {
@@ -194,18 +207,18 @@ td{
       }
 
     .mobile-div-menu.active{
-        display: flex;
-        height: 100vh;
-        width: 100%;
-        font-size: 12px;
-        background: black;
-        animation: move-div-menu 300ms ease-in-out forwards;
+      display: flex;
+      height: 100vh;
+      width: 100%;
+      font-size: 12px;
+      background: black;
+      animation: move-div-menu 300ms ease-in-out forwards;
     }
     .mobile-div-menu-nav{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 20px 30px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px 30px;
     }
 
     /* Menu animation */
@@ -261,101 +274,101 @@ td{
         }
       }
     .mobile-div-menu-nav-a1{
-        border-bottom: 1px solid white;
-        animation: move-div-menu-nav-a1 1.4s;
-        opacity: 0.7;
-        margin-bottom: 20px;
+      border-bottom: 1px solid white;
+      animation: move-div-menu-nav-a1 1.4s;
+      opacity: 0.7;
+      margin-bottom: 20px;
     }
     .mobile-div-menu-nav-a1:hover{
-        opacity: 1;
+      opacity: 1;
     }
     .mobile-div-menu-nav-a2{
-        border-bottom: 1px solid white;
-        animation: move-div-menu-nav-a2 1.3s;
-        opacity: 0.7;
-        margin-bottom: 20px;
+      border-bottom: 1px solid white;
+      animation: move-div-menu-nav-a2 1.3s;
+      opacity: 0.7;
+      margin-bottom: 20px;
     }
     .mobile-div-menu-nav-a2:hover{
-        opacity: 1;
+      opacity: 1;
     }
     .mobile-div-menu-nav-a3{
-        border-bottom: 1px solid white;
-        animation: move-div-menu-nav-a3 1.2s;
-        opacity: 0.7;
-        margin-bottom: 20px;
+      border-bottom: 1px solid white;
+      animation: move-div-menu-nav-a3 1.2s;
+      opacity: 0.7;
+      margin-bottom: 20px;
     }
     .mobile-div-menu-nav-a3:hover{
-        opacity: 1;
+      opacity: 1;
     }
     .mobile-div-menu-nav-a4{
-        border-bottom: 1px solid white;
-        animation: move-div-menu-nav-a4 1.1s;
-        opacity: 0.7;
-        margin-bottom: 20px;
+      border-bottom: 1px solid white;
+      animation: move-div-menu-nav-a4 1.1s;
+      opacity: 0.7;
+      margin-bottom: 20px;
     }
     .mobile-div-menu-nav-a4:hover{
-        opacity: 1;
+      opacity: 1;
     }
     .mobile-div-menu-nav-a5{
-        border-bottom: 1px solid white;
-        animation: move-div-menu-nav-a5 1s;
-        opacity: 0.7;
+      border-bottom: 1px solid white;
+      animation: move-div-menu-nav-a5 1s;
+      opacity: 0.7;
     }
     .mobile-div-menu-nav-a5:hover{
-        opacity: 1;
+      opacity: 1;
     }
     .mobile-div-gh{
-        text-align: center;
-        padding: 10px;
-        width: 70%;
-        color: white;
-        opacity: 0.7;
+      text-align: center;
+      padding: 10px;
+      width: 70%;
+      color: white;
+      opacity: 0.7;
     }
     .mobile-div-gh:hover{
-        opacity: 1;
+      opacity: 1;
     }
    
     .menu-img{
-        filter: invert(100%);
-        width: 20px;
-        opacity: 0.7;
-        margin: 10px 10px;
+      filter: invert(100%);
+      width: 20px;
+      opacity: 0.7;
+      margin: 10px 10px;
     }
     .menu-img:hover{
-        opacity: 1;
+      opacity: 1;
     }
     .mobile-div-gh.active{
-        opacity: 0;
+      opacity: 0;
     }
     .mobile-div.active{
-        opacity: 0;
+      opacity: 0;
     }
 
     /* Language Section */
 
     .mobile-div-lang{
-        text-align: right;
-        width: 25%;
+      text-align: right;
+      width: 25%;
     }
     .mobile-div-lang.active{
-        display: flex;
-        width: 100%;
-        height: 40px;
+      display: flex;
+      width: 100%;
+      height: 40px;
     }
     .mobile-div-langs{
-        display: none;
+      display: none;
     }
     .mobile-div-langs.active{
-        display: flex;
-        padding: 10px;
-        width: 100%;
-        margin-left: 50px;
-        text-align: center;
-        align-content: center;
-        font-size: 15px;
+      display: flex;
+      padding: 10px;
+      width: 100%;
+      margin-left: 50px;
+      text-align: center;
+      align-content: center;
+      font-size: 15px;
     }
     .mobile-div-lang-logo.active{
-        opacity: 0;
+      opacity: 0;
     }
     @keyframes move-a1 {
         from {
@@ -392,29 +405,29 @@ td{
         color: white;
     }
     .langs-a1{
-        width: 33%;
-        animation: move-a1 1s;
+      width: 33%;
+      animation: move-a1 1s;
     }
     .langs-a1:hover{
-        opacity: 1;
+      opacity: 1;
     }
     .langs-a2{
-        width: 33%;
-        animation: move-a2 1.1s;
+      width: 33%;
+      animation: move-a2 1.1s;
     }
     .langs-a2:hover{
-        opacity: 1;
+      opacity: 1;
     }
     .langs-a3{
-        width: 33%;
-        animation: move-a3 1.2s;
+      width: 33%;
+      animation: move-a3 1.2s;
     }
     .langs-a3:hover{
-        opacity: 3;
+      opacity: 3;
     }
     .mobile-header.active{
-        display: grid;
-        grid-template-columns: 0px 0px 100%;
+      display: grid;
+      grid-template-columns: 0px 0px 100%;
     }
 }
 
