@@ -214,13 +214,17 @@ td{
       background: black;
       animation: move-div-menu 300ms ease-in-out forwards;
     }
+    
+
     .mobile-div-menu-nav{
       display: flex;
       flex-direction: column;
       width: 100%;
       padding: 20px 30px;
     }
-
+    mobile.div.menu.nav{
+      display: none;
+    }
     /* Menu animation */
 
       @keyframes move-div-menu-nav-a1 {
