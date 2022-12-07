@@ -96,3 +96,117 @@ mobile_div_menu_nav_a1.addEventListener("click", () => {
 mobile_div_menu_nav_a1.addEventListener("click", () => {
     mobile_div_lang_logo.classList.toggle("active");
 })
+
+//mobile div menu Skills clicked hide
+
+const mobile_div_menu_nav_a2 = document.querySelector(".mobile-div-menu-nav-a2");
+
+
+mobile_div_menu_nav_a2.addEventListener("click", () => {
+    mobile_div_menu_nav.classList.toggle("hide");
+})
+
+mobile_div_menu_nav_a2.addEventListener("click", () => {
+    mobile_div_menu.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a2.addEventListener("click", () => {
+    mobile_menu_line1.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a2.addEventListener("click", () => {
+    mobile_menu_line2.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a2.addEventListener("click", () => {
+    mobile_div_gh.classList.toggle("active");
+})
+mobile_div_menu_nav_a2.addEventListener("click", () => {
+    mobile_div_lang_logo.classList.toggle("active");
+})
+
+
+//mobile div menu Work-expereince clicked hide
+
+const mobile_div_menu_nav_a3 = document.querySelector(".mobile-div-menu-nav-a3");
+
+
+mobile_div_menu_nav_a3.addEventListener("click", () => {
+    mobile_div_menu_nav.classList.toggle("hide");
+})
+
+mobile_div_menu_nav_a3.addEventListener("click", () => {
+    mobile_div_menu.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a3.addEventListener("click", () => {
+    mobile_menu_line1.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a3.addEventListener("click", () => {
+    mobile_menu_line2.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a3.addEventListener("click", () => {
+    mobile_div_gh.classList.toggle("active");
+})
+mobile_div_menu_nav_a3.addEventListener("click", () => {
+    mobile_div_lang_logo.classList.toggle("active");
+})
+
+//mobile div menu Contact clicked hide
+
+const mobile_div_menu_nav_a4 = document.querySelector(".mobile-div-menu-nav-a4");
+
+
+mobile_div_menu_nav_a4.addEventListener("click", () => {
+    mobile_div_menu_nav.classList.toggle("hide");
+})
+
+mobile_div_menu_nav_a4.addEventListener("click", () => {
+    mobile_div_menu.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a4.addEventListener("click", () => {
+    mobile_menu_line1.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a4.addEventListener("click", () => {
+    mobile_menu_line2.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a4.addEventListener("click", () => {
+    mobile_div_gh.classList.toggle("active");
+})
+mobile_div_menu_nav_a4.addEventListener("click", () => {
+    mobile_div_lang_logo.classList.toggle("active");
+})
+
+
+//mobile div menu Download clicked hide
+
+const mobile_div_menu_nav_a5 = document.querySelector(".mobile-div-menu-nav-a5");
+
+
+mobile_div_menu_nav_a5.addEventListener("click", () => {
+    mobile_div_menu_nav.classList.toggle("hide");
+})
+
+mobile_div_menu_nav_a5.addEventListener("click", () => {
+    mobile_div_menu.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a5.addEventListener("click", () => {
+    mobile_menu_line1.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a5.addEventListener("click", () => {
+    mobile_menu_line2.classList.toggle("active");
+})
+
+mobile_div_menu_nav_a5.addEventListener("click", () => {
+    mobile_div_gh.classList.toggle("active");
+})
+mobile_div_menu_nav_a5.addEventListener("click", () => {
+    mobile_div_lang_logo.classList.toggle("active");
+})
