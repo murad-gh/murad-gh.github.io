@@ -31,13 +31,11 @@ body{
 .desktop-header-div-gh{
   display: flex;
   width: 25%;
-  background: red;
 }
 .desktop-header-div-menu{
   display: flex;
   width: 60%;
   justify-content: center;
-  background: blue;
 } 
 .desktop-header-div-menu-nav-a{
   margin: 10px;
@@ -47,7 +45,6 @@ body{
   display: flex;
   width: 25%;
   justify-content: right;
-  background: red;
 }
 .desktop-header-div-nav-a{
   margin: 10px;
@@ -113,14 +110,39 @@ td{
   padding-left: 10px;
   width: 310px;
 }
+#td-www-hover:hover{
+  border: 1px solid;
+  background: white;
+}
 .link-color{
   color: black;
 }
-
-.contact{
+.contacts{
   padding: 10px;
   padding-top: 40px;
+  text-align: center;
+  justify-content: center;
 }
+/* unvisited link */
+.www-color:link{
+  color: blue;
+}
+
+/* visited link */
+.www-color:visited{
+  color: red;
+}
+
+/* mouse over link */
+.www-color:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.www-color:active {
+  color: blue;
+}
+
 .download{
   padding: 10px;
   padding-top: 40px;
@@ -131,7 +153,13 @@ td{
     display: none;
 }
 
-
+/* Header CSS */
+footer{
+  text-align: center;
+}
+.footer-div{
+  background: red;
+}
 @media (max-width: 690px) {
     .desktop-header{
         display: none;
@@ -142,6 +170,7 @@ td{
     .mobile-header{
       display: grid;
       grid-template-columns: 1fr 2fr 0fr;
+      width: 100%;
       font-size: 15px;
       height: 40px;
       background: black; 
@@ -222,7 +251,7 @@ td{
       width: 100%;
       padding: 20px 30px;
     }
-    mobile.div.menu.nav{
+    .mobile.div.menu.nav{
       display: none;
     }
     /* Menu animation */

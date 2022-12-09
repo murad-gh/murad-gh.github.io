@@ -154,7 +154,7 @@ mobile_div_menu_nav_a3.addEventListener("click", () => {
     mobile_div_lang_logo.classList.toggle("active");
 })
 
-//mobile div menu Contact clicked hide
+//mobile div menu Contacts clicked hide
 
 const mobile_div_menu_nav_a4 = document.querySelector(".mobile-div-menu-nav-a4");
 
