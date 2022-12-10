@@ -55,12 +55,9 @@ body{
 /* Here the content section */
 
 .content-section{
-  display: flex;
-  flex-direction: column;
+  max-width: 470px;
+  margin: 0 auto;
   text-align: center;
-  align-content: center;
-  justify-content: center;
-  padding: 10px;
 }
 .about-me{
   padding: 10px;
@@ -70,7 +67,6 @@ body{
 /* Table Skills */
 .skills{
   padding: 10px;
-  padding-top: 40px;
 }
 table.center{
   margin-top: 20px;
@@ -110,7 +106,7 @@ td{
   padding-left: 10px;
   width: 310px;
 }
-#td-www-hover:hover{
+.td-www-hover:hover{
   border: 1px solid;
   background: white;
 }
@@ -155,16 +151,19 @@ td{
 
 /* Header CSS */
 footer{
+  font-size: 8px;
   text-align: center;
 }
 .footer-div{
-  background: red;
+  padding: 10px;
 }
 @media (max-width: 690px) {
     .desktop-header{
         display: none;
     }
-   
+    .about-me{
+      padding-top: 0;
+    }
     /* Mobile */
 
     .mobile-header{
