@@ -13,7 +13,11 @@ body{
 .mobile-div-menu{
   display: none;
 }
-
+/* This Mobile CSS */
+ 
+.mobile-header{
+  display: none;
+}
 /* This Desktop CSS */
 
 .desktop-header{
@@ -69,7 +73,7 @@ body{
   padding: 10px;
 }
 table.center{
-  margin-top: 20px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -131,7 +135,7 @@ td{
 
 /* mouse over link */
 .www-color:hover {
-  color: hotpink;
+  color: red;
 }
 
 /* selected link */
@@ -143,10 +147,8 @@ td{
   padding: 10px;
   padding-top: 40px;
 }
-
-/* This Mobile CSS */
-.mobile-header{
-    display: none;
+.contacts{
+  text-align: left;
 }
 
 /* Header CSS */
@@ -154,8 +156,19 @@ footer{
   font-size: 8px;
   text-align: center;
 }
+.footer-div-a{
+  font-size: 10px;
+  color: black;
+  padding: 15px;
+}
 .footer-div{
   padding: 10px;
+}
+.a-phone{
+  color: blue;
+}
+.a-phone:hover{
+  color: red;
 }
 @media (max-width: 690px) {
     .desktop-header{
@@ -164,6 +177,7 @@ footer{
     .about-me{
       padding-top: 0;
     }
+    
     /* Mobile */
 
     .mobile-header{
