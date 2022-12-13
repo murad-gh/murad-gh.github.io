@@ -142,6 +142,7 @@ td{
 .www-color:active {
   color: blue;
 }
+.www-color:link    { color: LinkText; }
 
 .download{
   padding: 10px;
