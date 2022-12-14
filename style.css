@@ -64,6 +64,7 @@ body{
   text-align: center;
 }
 .about-me{
+  text-align: justify;
   padding: 10px;
   padding-top: 40px;
 }
@@ -114,9 +115,6 @@ td{
   border: 1px solid;
   background: white;
 }
-.link-color{
-  color: black;
-}
 .contacts{
   padding: 10px;
   padding-top: 40px;
@@ -142,9 +140,9 @@ td{
 .www-color:active {
   color: blue;
 }
-.www-color:link    { color: LinkText; }
 
 .download{
+  text-align: left;
   padding: 10px;
   padding-top: 40px;
 }
