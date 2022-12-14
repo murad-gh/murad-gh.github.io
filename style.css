@@ -146,6 +146,9 @@ td{
   padding: 10px;
   padding-top: 40px;
 }
+.download a{
+  color: blue;
+}
 .contacts{
   text-align: left;
   font-size: 12px;
