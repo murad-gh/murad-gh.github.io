@@ -77,7 +77,6 @@ body{
   padding-top: 40px;
 }
 table.center{
-  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -107,6 +106,7 @@ td{
 
 .work-expereince{
   padding: 10px;
+  padding-top: 20px;
 }
 .td-work{
   text-align: left;
@@ -128,7 +128,6 @@ td{
   color: red;
 }
 .contacts{
-  padding: 10px;
   padding-top: 40px;
   text-align: left;
   font-size: 12px;
